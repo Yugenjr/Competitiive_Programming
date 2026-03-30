@@ -1,0 +1,51 @@
+Introduction
+The problem of counting set bits in an integer means finding the number of 1’s in its binary representation. For example, the binary form of 7 is 111, which has 3 set bits.
+
+Naive Solution:
+int count_setbits(int N) { 
+    int cnt = 0;
+
+    while (N > 0) {
+        cnt += (N & 1);  // check last bit
+        N = N >> 1;      // right shift
+    }
+
+    return cnt;
+}
+How it Works?
+Keep checking the least significant bit using bitwise AND with 1.
+Right shift the number by 1 to move to the next bit.
+Continue until the number becomes 0.
+Increment count for each set bit encountered.
+Using __builtin_popcount():
+C++ provides a built-in function __builtin_popcount() that counts the number of set bits in a single line of code.
+
+Syntax: __builtin_popcount(int num);
+
+It takes an integer as input.
+Returns the number of set bits.
+Works only for integers within the int range.
+Example
+int main() {
+    int n = 7;
+    cout << __builtin_popcount(n);
+    return 0;
+}
+Output: 3
+
+For Long Long Integers:
+If the number is of type long long and does not fit into an int, we use __builtin_popcountll(). Notice the ll at the end of the function name.
+
+Example:
+int main() {
+    long long n = 77777777777777;
+    cout << __builtin_popcountll(n);
+    return 0;
+}
+Output: 23
+
+Conclusion
+__builtin_popcount() → works for int type.
+__builtin_popcountll() → works for long long type.
+Both functions help count set bits efficiently in a single line of code.
+These functions are widely used in competitive programming because of their simplicity and performance.

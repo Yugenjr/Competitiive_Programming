@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+class Containsduplicate2 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer,Integer> se=new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

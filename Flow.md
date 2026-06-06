@@ -10,5 +10,10 @@ https://youtu.be/_HRA37X8N_Q?si=13HY-naxz-A3d6iB
 Binary search:
 https://youtu.be/f6UU7V3szVw?si=U9CAwWOvBsnzgQtD
 
+Binary search questions alone:
+https://youtu.be/W9QJ8HaRvJQ?si=f7kPXDliNIBDmWk0
 
+
+
+...
 ...

@@ -19,7 +19,7 @@ public class Ceiling {
                 end=mid-1; //end=mid; 
             }
         }
-        return end+1; // return st; 
+        return st; // return end;
         }
 }
 

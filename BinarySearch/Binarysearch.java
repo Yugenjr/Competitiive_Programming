@@ -22,14 +22,14 @@ class Binarysearch{
         int end=arr.length-1;
         while(st<=end){
             int mid=st+(end-st)/2;
-            if(arr[mid]==x){
-                return mid;
-            }
-            else if(arr[mid]<x){
+            if(arr[mid]<x){
                 end=mid-1;
             }
-            else{
+            else if(arr[mid]>x){
                 st=mid+1;
+            }
+            else{
+                return mid;
             }
         }
         return -1;

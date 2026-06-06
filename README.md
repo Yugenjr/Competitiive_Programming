@@ -4,24 +4,24 @@
 
 ### 1. Time Complexity
 
-* Big O
-* Big Omega
-* Big Theta
-* Best Case
-* Average Case
-* Worst Case
+* Big O       yes
+* Big Omega    yes
+* Big Theta    yes
+* Best Case    yes
+* Average Case  yes
+* Worst Case    yes
 
 ### 2. Space Complexity
 
 ### 3. Recursion
 
-* Base Case
-* Recursive Relation
-* Recursion Tree
+* Base Case     yes
+* Recursive Relation    yes
+* Recursion Tree    yes
 
 Problems:
 
-* Factorial
+* Factorial     yes
 * Fibonacci
 * Power Function
 
@@ -31,9 +31,9 @@ Problems:
 
 ### Basics
 
-* Traversal
-* Insertion
-* Deletion
+* Traversal     yes
+* Insertion     yes
+* Deletion      yes
 
 ### Patterns
 
@@ -67,7 +67,7 @@ Problems:
 
 ### Basics
 
-* Character Arrays
+* Character Arrays      yes
 * String Manipulation
 
 ### Patterns
@@ -173,7 +173,7 @@ Problems:
 
 ### Basics
 
-* Iterative
+* Iterative     yes
 * Recursive
 
 ### Patterns

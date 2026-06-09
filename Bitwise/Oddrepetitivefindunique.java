@@ -1,7 +1,14 @@
 package Bitwise;
 
 public class Oddrepetitivefindunique {
-    
+    public static void main(String[] args) {
+        int arr[]={2,3,1,6,3,6,2,6,3,2};
+        int tot=0;
+        for(int i=0;i<arr.length;i++){
+            tot+=arr[i];
+        }
+        System.out.println(tot % 3);
+    }
 }
 // every number appears n times but one number appears only once . find that number in O(n) time and O(1) space
 

@@ -26,3 +26,7 @@ eg: 21 to decimal
 - multiply each digit with base^position and add them up.
 - 2*8^1 + 1*8^0 = 17
 
+3. Base 2 to base 8:
+
+base 2 to base 10 , then base 10 to base 8 easily .
+

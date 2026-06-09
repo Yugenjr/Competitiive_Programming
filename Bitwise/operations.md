@@ -24,6 +24,20 @@ compliment :
 
     same as not operator
 
+Left Shift:
+
+  for eg:  1010 base 2 ->  10100 
+
+  so a<<1 = 2a
+  so a<< b = a*2^b
+
+Right Shift:
+
+    for eg: 11001 >> 1 = > 1100 
+
+    so a>>1 = a/2
+    so a>>b = a/2^b
+
 Number Systems:
 
 Decimal - 0,1,2...9 (base 10)

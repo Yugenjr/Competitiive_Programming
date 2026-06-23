@@ -1,0 +1,28 @@
+class Solution {
+    public int findSubarray(int[] arr) 
+    {
+         int sum=0;
+         int count=0;
+         
+         HashMap<Integer,Integer>mp= new HashMap<>();
+         
+         for(int i=0;i<arr.length;i++)
+         {
+             sum+=arr[i];
+             
+             if(sum==0)
+                count++;
+            
+             if(mp.containsKey(sum)==true)
+             {
+                 count+= mp.get(sum);   // count+=mp[sum];
+                 mp.put(sum , mp.get(sum)+1); // mp[sum]++
+             }
+             else
+             {
+                 mp.put(sum,1);
+             }
+         }
+         return count;
+    }
+}

@@ -1,3 +1,4 @@
+package BinarySearch;
 public class SearchInMountain {
     /**
  * // This is MountainArray's API interface.

@@ -1,0 +1,14 @@
+a=int(input())
+while(a>0):
+    arr = []
+    n=10
+    for i in range(n):
+        row = list(input())
+        arr.append(row)
+    co=0
+    for i in range(n):
+        for j in range(n):
+            if arr[i][j]=='X':
+                co+=min(i+1,j+1,n-i,n-j)
+    print(co)
+    a-=1
